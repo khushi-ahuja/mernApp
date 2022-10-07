@@ -17,7 +17,7 @@ app.get('/login', (req, res) => {
     return res.send("Yor are visiting login page");
 })
 
-app.get('/signin', (req, res) => {
+app.get('/signup', (req, res) => {
     return res.send("this is signin page");
 })
 
